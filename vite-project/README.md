@@ -1,16 +1,41 @@
-# React + Vite
+1- State Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+~ Combination of local state and global state
 
-Currently, two official plugins are available:
+~ Redux Toolkit used for:
+Students data
+Snacks data
+Orders management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+~ Predictable and scalable state flow
 
-## React Compiler
+2- Form Handling & Validation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+~ Forms handled using React Hook Form
+~ Client-side validation for:
+~ Required fields
+~ Quantity limits (1–5)
 
-## Expanding the ESLint configuration
+Clean error messages and UX-friendly form behavior
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3- Component Composition
+
+~ Reusable and modular components, such as:
+~ SnackCard
+~ StudentDetails
+~ OrderModal
+~ Navbar
+
+Promotes clean code, reusability, and maintainability.
+
+4- API Integration (Mocked)
+~ Data is fetched using mocked APIs (or json-server)
+~ Async actions handled properly with loading & error states
+
+5- Tech Stack Used
+~ React.js – UI library
+~ Redux Toolkit – Global state management
+~ React Hook Form – Form handling & validation
+~ React Router DOM – Client-side routing
+~ Tailwind CSS – Styling & responsiveness
+~ Mock API / json-server – Backend simulation
