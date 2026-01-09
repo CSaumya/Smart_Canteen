@@ -1,11 +1,20 @@
-Project Structure :
+## Project Structure
 
-Smart_Canteen /
-   vite-project/
-           src/
-           ├── components/ {Navbar, OrderModal, SnackCard}
-           ├── data/  {FoodData, StudentData, MockAPi} #mocked data
-           ├── pages/ {Snacks, StudentDetails, StudentForm, Students}
-           ├── App.jsx
-           ├── index.css
-           └── main.jsx
+```bash
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── OrderModal.jsx
+│   └── SnackCard.jsx
+├── data/
+│   ├── FoodData.js
+│   ├── StudentData.js
+│   └── MockApi.js
+├── pages/
+│   ├── Snacks.jsx
+│   ├── Students.jsx
+│   ├── StudentDetails.jsx
+│   └── StudentForm.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
