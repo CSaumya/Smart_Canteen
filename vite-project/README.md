@@ -39,3 +39,13 @@ Promotes clean code, reusability, and maintainability.
 ~ React Router DOM – Client-side routing
 ~ Tailwind CSS – Styling & responsiveness
 ~ Mock API / json-server – Backend simulation
+
+
+
+
+
+
+
+
+
+
